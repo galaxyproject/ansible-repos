@@ -1,0 +1,13 @@
+namespace: "progiuseppe"
+name: "galaxy-repos"
+version: "0.0.3"
+readme: "README.md"
+authors:
+    - "Helena Rasche (https://github.com/erasche)"
+    - "Giuseppe Profiti (https://github.com/profgiuseppe)"
+license:
+    - "MIT"
+tags:
+    - filesystem
+    - system
+repository: "https://github.com/profgiuseppe/ansible-repos"
