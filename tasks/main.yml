@@ -17,7 +17,7 @@
   block:
     - name: Ensure that source GPG key is known
       ansible.builtin.apt_key:
-        keyserver: hkp://pool.sks-keyservers.net
+        keyserver: hkp://keys.openpgp.org
         id: 18381AC8832160AF
     - name: Ensure that galaxyproject depot sources are available
       apt_repository:
